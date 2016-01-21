@@ -41,7 +41,7 @@ gulp.task('serve', [], function() {
 
     var serverOptions =  {
         root: app.paths.main,
-        host: 'http://exercises.dev',
+        host: 'exercises.dev',
         port: 8080,
         livereload: true,
     };
