@@ -1,0 +1,22 @@
+{
+    "name": "Exercises",
+    "description": "Exercises for interview",
+    "dependencies": {
+
+    },
+    "main": "index.html",
+    "moduleType": [],
+    "keywords": [
+        "Exercises"
+    ],
+    "license": "MIT",
+    "homepage": "",
+    "private": true,
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "bower_components",
+        "test",
+        "tests"
+    ]
+}
