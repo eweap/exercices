@@ -66,7 +66,11 @@ gulp.task('sass', [], function() {
             .pipe(sass({
                 outputStyle:  'expanded', // We don't compress CSS here, see below
                 precision:    10,
-                includePaths: [],
+                includePaths: [
+                    'bower_components/foundation-sites/scss',
+                    'node_modules/foundation-sites/scss',
+                    'bower_components/bootstrap-sass/assets/stylesheets',
+                ],
                 relative:     false,
             }))
             .on('error', swallowError)
